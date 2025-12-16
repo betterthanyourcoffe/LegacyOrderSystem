@@ -6,7 +6,7 @@ public class OrderService
     public OrderService()
     {
         _repo = new OrderRepository();// do this with DI
-        _emailClient = new EmailClient();// do this with DI
+        _emailClient = new EmailClient();// do this with DI this is new
     }
 
     public bool PlaceOrder(int userId, List<OrderItem> items)
