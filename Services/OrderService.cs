@@ -19,7 +19,7 @@ public class OrderService
         decimal total = 0;
         foreach (var item in items)
         {
-            total += item.Price * item.Quantity;
+            total += item.Price * item.Quantity;//rwerfwerwer
         }
 
         if (total > 10000)
